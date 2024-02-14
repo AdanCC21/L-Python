@@ -26,3 +26,21 @@ if numero1 <= numero2:
 
 if numero1 >= numero2:
     print(numero1, 'es mayor o igual que', numero2)
+
+
+print("Comparacion\n")
+
+c1 = 5<9
+print(c1)
+c2 = 5>9
+print(c2)
+c3 = 5>=9
+print(c3)
+c4 = 5 == 9
+print(c4)
+c5 = 5<=9
+print(c5)
+c6 = 9 !=5
+print(c6)
+
+
