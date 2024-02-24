@@ -1,7 +1,11 @@
-"""Gonzalez Cese;a Adan 372799"""
+""" Gonzalez Ceseña Adan 
+    372799
+    Ejercicios Unidad I    
+"""
 
 import math
 
+#Ejercicio 1
 x=2
 y=3
 
@@ -67,3 +71,6 @@ print(f"{2:>5}\t{4:>8}\t{8:>5}")
 print(f"{3:>5}\t{9:>8}\t{27:>5}")
 print(f"{4:>5}\t{16:>8}\t{64:>5}")
 print(f"{5:>5}\t{25:>8}\t{125:>5}")
+
+
+
