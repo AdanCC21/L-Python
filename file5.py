@@ -3,6 +3,7 @@
     372799
     Grupo 941
     06/03/2024
+    Practica 4
 """
 
 #Pre ejercicio--------------------------------------------
@@ -67,3 +68,42 @@ while renglon < maximo_renglon:
     cadena_renglon_columna=cadena_renglon_columna + '\n'
     renglon = renglon+1
 print(cadena_renglon_columna)
+
+#ejercicio 7--------------------------------------------
+print("Ingrese su nombre")
+cad=input()
+print("Ingrese el simobolo que rodeara su nombre")
+sim=input()
+
+cadlen=len(cad)
+c=0
+top=""
+center=""
+while(c<=cadlen +1):
+    top=top + sim
+    c=c+1
+print(top)
+center = sim + cad + sim
+print(center)
+print(top)
+
+#ejercicio 8--------------------------------------------
+print("Ingrese un numero impar para iniciar su piramide")
+nimpar=int(input())
+caracter="*"
+if nimpar % 2 == 0:
+    print("El número no es impar")
+else:
+    n = 1
+    espacios = nimpar // 2
+    while n <= nimpar:
+        print(" " * espacios + caracter * n)
+        n += 2
+        espacios -= 1
+    
+    n -= 4
+    espacios = 1
+    while n > 0:
+        print(" " * espacios + caracter * n)
+        n -= 2
+        espacios += 1
