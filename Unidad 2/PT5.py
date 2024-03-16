@@ -54,5 +54,54 @@ s = time % 60
 print(h,m,s, sep=("-"))
 """
 #Ejercicio 33------------------------------------------------------------
+print("Ingrese un numero")
+num=int(input())
+suma=0
+
+for i in range(1,num):
+    if num%i==0:
+        suma=suma+i
+
+print("el numero",num,"",end=(""))
+if suma==num:
+    print("es perfecto")
+else:
+    print("imperfecto")
+
+#Ejercicio 34------------------------------------------------------------
+print("ingrese un numero binario")
+binario=int(input())
+pb=binario
+
+decimal = 0
+posicion = 0
+while binario > 0:
+    digito = binario % 10
+    decimal += digito * (2 ** posicion)
+    binario //= 10
+    posicion += 1
+
+print("el numero",pb,"Es equivalente a", decimal)
+
+#Ejercicio 35------------------------------------------------------------
+print("ingrese un numero binario")
+decimal=int(input())
+dc=decimal
+binario = 0
+posicion = 1
+while decimal > 0:
+    digito_binario = decimal % 2
+    binario += digito_binario * posicion
+    decimal //= 2
+    posicion *= 10
+
+print("el numero",dc,"Es equivalente a", binario)
+#Ejercicio 36------------------------------------------------------------ 
+
+
+#Ejercicio 37------------------------------------------------------------ 
+print("Ingrese una frase")
+cad=input()
+
 
 
