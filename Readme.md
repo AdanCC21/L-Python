@@ -1,4 +1,4 @@
-# <center>Introduccion al lenguaje de Pyhton</center>
+# <center>Introduccion Al Lenguaje De Pyhton</center>
 ## <center>Universidad Autonoma de Baja California</center>
 
 ### Facultad de ingeniera y arquitectura y diseño
