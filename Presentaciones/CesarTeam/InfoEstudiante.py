@@ -2,7 +2,7 @@ import os
 uni={}
 
 def menu():
-    os.system("clear")
+    
     print("Menu")
     print("1.-Agregar estudiante")
     print("2.-Buscar estudiante por numero de identificacion")
